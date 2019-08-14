@@ -46,4 +46,4 @@ Take a (very) rough wireframe drawing and other provided assets to build the UI 
 2. Remember to use margins, key lines and to count the number of characters in your text block to get it
 
 ## Challenge
-Continue working to polish your app. Add activities that you think would be good additions.
+Continue working to polish your app. Add activities that you think would be good additions......
