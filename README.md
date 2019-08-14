@@ -23,7 +23,7 @@ Take a (very) rough wireframe drawing and other provided assets to build the UI 
 ### Build Resources
 1. Add the color resources from the provided `colors.xml` to your color resources
 2. Use the tools discussed this week and the colors provided to create your own logo
-3. Generate other image assets with your 
+3. Generate other image assets with the tools we've worked with before
 
 ### Login Page
 1. Add two edit text views as well as sign in and register buttons
