@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        android:id="@+id/sv"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".acitivties.ListAcitivity" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+       <ImageView
+                android:id="@+id/header"
+                android:src="@drawable/green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="what_is_pictures"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/hstart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.02" />
+
+    <androidx.constraintlayout.widget.Guideline
+                 android:id="@+id/hmid"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 app:layout_constraintGuide_percent="0.5" />
+        <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/hend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.9" />
+
+             <ImageView
+                     android:layout_width="0dp"
+                     android:layout_height="0dp"
+                     android:id="@+id/space"
+                     android:src="@drawable/spaceforest"
+                     android:layout_marginStart="16dp"
+                     android:layout_marginTop="16dp"
+                     app:layout_constraintDimensionRatio="h,15:9"
+                     app:layout_constraintEnd_toEndOf="@+id/hmid"
+                     app:layout_constraintStart_toStartOf="@+id/hstart"
+                     app:layout_constraintTop_toBottomOf="@id/header" />
+
+
+
+           </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
