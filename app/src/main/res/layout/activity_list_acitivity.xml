@@ -19,7 +19,8 @@
                 android:src="@drawable/green"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:contentDescription="what_is_pictures"/>
+                android:contentDescription="what_is_pictures"
+       app:layout_constraintTop_toTopOf="parent"/>
 
         <androidx.constraintlayout.widget.Guideline
                 android:id="@+id/hstart"
@@ -44,7 +45,7 @@
              <ImageView
                      android:layout_width="0dp"
                      android:layout_height="0dp"
-                     android:id="@+id/space"
+                     android:id="@+id/space1"
                      android:src="@drawable/spaceforest"
                      android:layout_marginStart="16dp"
                      android:layout_marginTop="16dp"
@@ -52,9 +53,98 @@
                      app:layout_constraintEnd_toEndOf="@+id/hmid"
                      app:layout_constraintStart_toStartOf="@+id/hstart"
                      app:layout_constraintTop_toBottomOf="@id/header" />
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/space2"
+                android:src="@drawable/green2"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintDimensionRatio="h,15:9"
+                app:layout_constraintEnd_toEndOf="@+id/hmid"
+                app:layout_constraintStart_toStartOf="@+id/hstart"
+                app:layout_constraintTop_toBottomOf="@+id/space1" />
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/space3"
+                android:src="@drawable/green3"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintDimensionRatio="h,15:9"
+                app:layout_constraintEnd_toEndOf="@+id/hmid"
+                app:layout_constraintStart_toStartOf="@+id/hstart"
+                app:layout_constraintTop_toBottomOf="@+id/space2" />
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/space4"
+                android:src="@drawable/green4"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintDimensionRatio="h,15:9"
+                app:layout_constraintEnd_toEndOf="@+id/hmid"
+                app:layout_constraintStart_toStartOf="@+id/hstart"
+                app:layout_constraintTop_toBottomOf="@+id/space3" />
 
 
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/green1"
+                android:src="@drawable/space1"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintDimensionRatio="h,15:9"
+                app:layout_constraintEnd_toEndOf="@+id/hend"
+                app:layout_constraintStart_toStartOf="@+id/hmid"
+                app:layout_constraintTop_toBottomOf="@+id/header" />
 
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/green2"
+                android:src="@drawable/space2"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintDimensionRatio="h,15:9"
+                app:layout_constraintEnd_toEndOf="@+id/hend"
+                app:layout_constraintStart_toStartOf="@+id/hmid"
+                app:layout_constraintTop_toBottomOf="@+id/green1" />
+
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/green3"
+                android:src="@drawable/space3"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintDimensionRatio="h,15:9"
+                app:layout_constraintEnd_toEndOf="@+id/hend"
+                app:layout_constraintStart_toStartOf="@+id/hmid"
+                app:layout_constraintTop_toBottomOf="@+id/green2" />
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/green4"
+                android:src="@drawable/space4"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintDimensionRatio="h,15:9"
+                app:layout_constraintEnd_toEndOf="@+id/hend"
+                app:layout_constraintStart_toStartOf="@+id/hmid"
+                app:layout_constraintTop_toBottomOf="@+id/green3" />
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/green5"
+                android:src="@drawable/space5"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintDimensionRatio="h,15:9"
+                app:layout_constraintEnd_toEndOf="@+id/hend"
+                app:layout_constraintStart_toStartOf="@+id/hmid"
+                app:layout_constraintTop_toBottomOf="@+id/green4" />
            </androidx.constraintlayout.widget.ConstraintLayout>
 
 
