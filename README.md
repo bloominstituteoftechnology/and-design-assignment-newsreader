@@ -22,7 +22,7 @@ Take a (very) rough wireframe drawing and other provided assets to build the UI 
 
 ### Build Resources
 1. Add the color resources from the provided `colors.xml` to your color resources
-2. Use the provided logo vector file to generate an app icon
+2. Use the tools discussed this week and the colors provided to create your own logo
 3. Generate other image assets with your 
 
 ### Login Page
