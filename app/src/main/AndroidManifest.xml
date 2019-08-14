@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.and_design_assignment_newsreader">
+          package="com.example.newsreader">
 
     <application
             android:allowBackup="true"
