@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
 
     <androidx.cardview.widget.CardView
             android:layout_margin="3dp"
@@ -47,7 +50,7 @@
 
 
             <RelativeLayout
-                    
+
                     android:background="@color/colorAccent"
                     android:padding="10dp"
                     android:layout_width="match_parent"
@@ -58,8 +61,8 @@
                         android:gravity="center"
                         android:id="@+id/textViewTitle"
                         android:textSize="18sp"
-                        android:textColor="#1A1A1A"
-                        android:text="I like Purple"
+                        android:textColor="@android:color/white"
+                        android:text="@string/i_like_purple"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
 
