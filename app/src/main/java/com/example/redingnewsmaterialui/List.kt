@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_list.*
 import kotlinx.android.synthetic.main.image_view_layout.*
-import kotlinx.android.synthetic.main.image_view_layout.image_view
+
 
 class List : AppCompatActivity() {
 
@@ -25,5 +25,14 @@ class List : AppCompatActivity() {
             val intent = Intent(this, Detail::class.java)
             startActivity(intent)
         }
+        image_view4.setOnClickListener {
+            val intent = Intent(this, Detail::class.java)
+            startActivity(intent)
+        }
+        image_view3.setOnClickListener {
+            val intent = Intent(this, Detail::class.java)
+            startActivity(intent)
+        }
+
     }
 }

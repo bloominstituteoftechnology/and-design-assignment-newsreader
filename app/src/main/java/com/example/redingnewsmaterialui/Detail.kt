@@ -6,7 +6,7 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_list.*
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.image_view_layout.*
-import kotlinx.android.synthetic.main.image_view_layout.image_view
+
 
 class Detail : AppCompatActivity() {
 
